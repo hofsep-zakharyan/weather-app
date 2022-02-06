@@ -1,0 +1,90 @@
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  width: 60%;
+  margin: 20px;
+  align-items: center;
+}
+
+.select-div {
+  margin-top: 5%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+select:invalid {
+  color: gray;
+}
+.hint {
+  align-self: flex-start;
+  color: gray;
+  font-style: italic;
+}
+.card-body {
+  width: 100%;
+}
+.display-weather {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.left-column {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+.list-group {
+  margin: 10%;
+  text-align: left;
+}
+.span-align {
+  display: flex;
+  justify-content: space-between;
+}
+.right-column {
+  width: 50%;
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.right-list {
+  text-align: center;
+}
+.list-group-item-light {
+  border: none;
+}
+
+.btn-secondary {
+  margin: 5px;
+}
+
+.tableFirst {
+  text-align: start;
+}
+
+.tableEnd {
+  text-align: end;
+}
+
+.buttonNavigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.display-forecast {
+  margin-top: 10%;
+}
